@@ -36,9 +36,9 @@ class handler(BaseHTTPRequestHandler):
 
         # 执行方法
         try:
-            apiid=querys['id']
-            apisecert=querys['secert']
-            apiagentId = querys['agentId']
+            apiid=querys['wwa2ebc9821fde4912']
+            apisecert=querys['vWNVtIrvcRDy6rNiOKPlBFIBut3qnQPw7L6aoFVLA']
+            apiagentId = querys['1000002']
             apimsg = querys['msg']
         except:
             apimsg = '有必填参数没有填写'
